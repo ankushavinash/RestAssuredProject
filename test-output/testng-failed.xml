@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RMG.GitAPI.GitApiTest">
+      <class name="com.RMG.test.RequestChaining">
         <methods>
-          <include name="authenticationTest"/>
+          <include name="requestChaining"/>
         </methods>
-      </class> <!-- com.RMG.GitAPI.GitApiTest -->
+      </class> <!-- com.RMG.test.RequestChaining -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
